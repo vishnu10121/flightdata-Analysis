@@ -7,7 +7,7 @@ import numpy as np
 # Load cleaneed dataset
 flight_data = pd.read_csv("cleaned_flight_data.csv")
 
-# Add a dummy 'cancelled' column (simulate 10% cancelled flights)
+# Add a dummy 'Cancelled' column (simulate 10% cancelled flights)
 np.random.seed(42)
 flight_data['cancelled'] = np.random.choice([0, 1], size=len(flight_data), p=[0.9, 0.1])
 
