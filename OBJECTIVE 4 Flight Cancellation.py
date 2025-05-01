@@ -22,7 +22,7 @@ plt.ylabel("Number of Cancellations")
 plt.tight_layout()
 plt.show()
 
-# 2. Pie Chart - Cancellations by Airport
+# 2. Pie chart - Cancellations by Airport
 cancel_by_airport = flight_data[flight_data['cancelled'] == 1]['origin'].value_counts()
 
 plt.figure(figsize=(7, 7))
