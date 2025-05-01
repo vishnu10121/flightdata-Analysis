@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Load cleaned dataset
+# Load cleaneed dataset
 flight_data = pd.read_csv("cleaned_flight_data.csv")
 
 # Add a dummy 'cancelled' column (simulate 10% cancelled flights)
