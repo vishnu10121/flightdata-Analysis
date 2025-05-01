@@ -10,7 +10,7 @@ flight_data = pd.read_csv("cleaned_flight_data.csv")
 
 # Estimating Cost:
 # Since the dataset does not contain real ticket prices,
-# we are estimating the cost of each flight based on distance.
+# we are estimating the cost of each flight based on distance ..
 # Assumption: Each kilometer of flight costs ₹5.
 # Formula: estimated_cost = distance × ₹5.
 
