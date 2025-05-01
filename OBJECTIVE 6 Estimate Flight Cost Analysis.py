@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 flight_data = pd.read_csv("cleaned_flight_data.csv")
 
 
-# Estimating Cost:
+# Estimating cost:
 # Since the dataset does not contain real ticket prices,
 # we are estimating the cost of each flight based on distance ..
 # Assumption: Each kilometer of flight costs ₹5.
